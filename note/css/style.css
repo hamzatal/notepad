@@ -1,0 +1,106 @@
+/*
+Name : Hamza Al-Tal
+Email : hamza.t.a.altal@gmail.com
+Github: https://github.com/hamzatal
+Linkedin: https://www.linkedin.com/in/hamza-tal/
+Date : 26/9/2024
+Project : Dom-Task
+Version : 1.0
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* Global Styles */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+.navbar {
+  font-size: 40px;
+  background-color: rgb(3, 50, 172);
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+/* General styles */
+body {
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+/* Button styling */
+.btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #0056b3;
+  color: white;
+}
+.btn-bold,
+.btn-italic,
+.btn-upper,
+.btn-lower,
+.btn-capitalize,
+.btn-clear,
+.btn-print {
+  background-color: #007bff;
+  color: white;
+}
+/* Button Group */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+/* Color Input */
+input[type="color"] {
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(228, 228, 228);
+}
+/* Textarea styling */
+.textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+/* Input Group styling */
+.input-group {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+/* Dropdown */
+.btn-drop {
+  background-color: rgb(231, 231, 231);
+  color: black;
+  border: 1px solid #ced4da;
+}
+.btn-drop:hover {
+  background-color: #007bff;
+  color: white;
+}
+/* Center Container */
+.center-container {
+  max-width: 800px;
+  margin: auto;
+}
